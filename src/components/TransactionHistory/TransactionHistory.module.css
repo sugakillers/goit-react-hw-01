@@ -1,0 +1,26 @@
+.transactionTable {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.transactionTh {
+    background-color: rgb(38, 38, 38);
+    color: #fff;
+}
+
+.transactionTh {
+    text-align: center;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.transactionTd {
+    text-align: center;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.transactionTr:nth-child(even){
+background-color: rgb(201, 201, 201);
+}
